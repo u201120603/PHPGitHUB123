@@ -1,4 +1,8 @@
 applications:
-- name: node-hello-world
+- path: .
   memory: 128M
-  buildpack: sdk-for-nodejs
+  instances: 1
+  domain: mybluemix.net
+  name: PHPGitHUB
+  host: PHPGitHUB
+  disk_quota: 1024M
